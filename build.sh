@@ -12,7 +12,7 @@ clear
 THREAD="-j$(nproc)"
 
 # Slim LLVM 18.1.4 (https://mirrors.edge.kernel.org/pub/tools/llvm/)
-CLANG_BIN="/home/violet/Workspace/toolchains/llvm-18.1.4-x86_64/bin"
+CLANG_BIN="/home/violet/Workspace/toolchains/custom-clang/bin"
 
 # Environment
 export PATH="$CLANG_BIN:$PATH"
